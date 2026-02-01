@@ -1,0 +1,101 @@
+Govt Graduate College, Multan Road Burewala
+Digital Image Processing (DIP)
+Semester Project – GitHub Submission Guidelines
+rimshakiran2018@gmail.com
+Semester Project – GitHub Submission Guidelines
+All students must submit their DIP semester project through GitHub by strictly following
+the instructions given below.
+ GitHub Repository Setup
+• Create one public GitHub repository for the project.
+• Repository naming format:
+• DIP-Semester-Project-RollNo(University Registration Number)
+Example: DIP-Semester-Project-CS0101
+• The repository must remain public until evaluation is completed.
+ Mandatory Folder Structure
+The repository must follow the structure given below:
+DIP-Semester-Project-RollNo/
+│
+├── README.md
+├── Report/
+│ └── DIP_Project_Report.pdf
+├── Code/
+│ ├── main.py / main.ipynb
+│ └── supporting_files
+├── Dataset/
+│ └── sample_images_or_link.txt
+├── Results/
+│ └── output_images
+└── Presentation/
+ └── DIP_Project_Presentation.pdf
+ README.md Instructions (Mandatory)
+The README.md file must clearly include the following details:
+• Project Title
+Govt Graduate College, Multan Road Burewala
+Digital Image Processing (DIP)
+Semester Project – GitHub Submission Guidelines
+rimshakiran2018@gmail.com
+• Student Name
+• Roll Number
+• Course Name: Digital Image Processing
+• Project Description: Four lines only
+• Objectives: Bullet Points
+• Tools & Technologies Used
+• Steps to Run the Code
+• Sample Input and Output Images
+• Conclusion
+Projects without a properly written README file will be penalized.
+ Code Submission Guidelines
+• Submit original and well-commented code only.
+• Code should be error-free and executable.
+• Mention all external libraries used (OpenCV, NumPy, MATLAB, etc.).
+• If Jupyter Notebook is used, ensure all cells are executed before submission.
+• Copied or reused code without proper understanding is strictly prohibited.
+ Dataset Guidelines
+• Small datasets may be uploaded directly to the repository.
+• For large datasets:
+o Provide a Google Drive / Kaggle link
+o Add clear download instructions in Dataset/sample_images_or_link.txt
+ Results and Output
+• Store all output images in the Results/ folder.
+• Include:
+o Original images
+o Processed images
+o Comparative results (if applicable)
+Govt Graduate College, Multan Road Burewala
+Digital Image Processing (DIP)
+Semester Project – GitHub Submission Guidelines
+rimshakiran2018@gmail.com
+Project Report (Deadline to Upload DOCx file is 07/02/2026)
+• Project Report (PDF) must include:
+o Abstract
+o Introduction
+o Methodology
+o Algorithms Used
+o Results and Discussion
+o Conclusion
+o References
+ GitHub Commit History
+• Use meaningful commit messages, such as:
+o Initial project setup
+o Added preprocessing algorithm
+o Updated README
+• Repositories with only one bulk commit may lose marks.
+ GitHub Collaborator Requirement
+All students must add the instructor’s GitHub account as a collaborator to the repository.
+• Go to Repository → Settings → Collaborators
+• Click Add people
+• Add the instructor’s GitHub username:
+• <YOUR_GITHUB_USERNAME>
+• Ensure the invitation is accepted before submission
+• Repositories without collaborator access will not be evaluated
+ Plagiarism Policy
+• Plagiarism or copying from other repositories is strictly prohibited.
+• Similar or duplicated projects will receive zero marks.
+• Academic disciplinary action may be taken in serious cases.
+Govt Graduate College, Multan Road Burewala
+Digital Image Processing (DIP)
+Semester Project – GitHub Submission Guidelines
+rimshakiran2018@gmail.com
+ Final Submission
+• Late submissions will be penalized as per institutional rules.
+• Ensure the repository is complete, public, and accessible before the deadline.
