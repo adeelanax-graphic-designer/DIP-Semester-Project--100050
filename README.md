@@ -53,3 +53,21 @@ python main.py
 
 
 Output images will be saved in the Results/output_images folder
+Dataset Information
+
+This project uses a traffic surveillance video as the dataset.
+Due to large file size, the dataset is not directly uploaded to the repository.
+Dataset download instructions or sample images are provided in the Dataset folder.
+
+Sample Input and Output
+
+Input: Traffic video frames
+
+Output:
+
+Detected vehicles
+
+Violation frames saved in the Results folder
+The system successfully detects moving vehicles and identifies stop-line violations.
+Violation frames are stored automatically for verification.
+The results show that basic image processing techniques are effective for traffic monitoring.
