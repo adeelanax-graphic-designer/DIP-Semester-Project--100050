@@ -1,0 +1,101 @@
+````markdown
+# Slide 1: Title Slide
+**Traffic Violation Detection Using Digital Image Processing**
+
+- **Student Name:** Adeela Naz  
+- **Roll Number:** <100050>  
+- **Course:** Digital Image Processing (DIP)  
+- **Institute:** Govt Graduate College, Multan Road Burewala
+
+
+
+---
+
+# Slide 2: Project Overview
+- Implements a traffic violation detection system using digital image processing.
+- Analyzes video frames from traffic surveillance.
+- Defines stop lines to detect illegal crossing.
+- Automatically records violations for analysis.
+
+*Visual suggestion:* Diagram showing camera -> vehicle detection -> violation record.
+
+---
+
+# Slide 3: Objectives
+- Understand fundamentals of Digital Image Processing.
+- Detect moving vehicles from traffic videos.
+- Identify traffic violations like stop-line crossing.
+- Store violation results for further analysis.
+
+*Visual suggestion:* Use icons for vehicle detection, analysis, stop-line.
+
+---
+
+# Slide 4: Tools & Technologies
+- **Programming Language:** Python
+- **Libraries:** OpenCV, NumPy
+- **IDE:** VS Code
+- **Version Control:** GitHub
+
+*Visual suggestion:* Logos of Python, OpenCV, NumPy, VS Code.
+
+---
+
+# Slide 5: Methodology / Steps
+1. Load traffic video using OpenCV.
+2. Define stop line on the road.
+3. Process each frame to detect moving vehicles.
+4. Check if vehicles cross the stop line.
+5. Record violation with timestamp and frame image.
+
+*Visual suggestion:* Flowchart from video input -> detection -> violation -> output.
+
+---
+
+# Slide 6: How to Run the Code
+1. Install Python (3.x)
+2. Install libraries:
+```bash
+pip install opencv-python numpy
+````
+
+3. Run the main Python script.
+4. Check output folder for detected violations and logs.
+
+*Visual suggestion:* Screenshot of VS Code running the script.
+
+---
+
+# Slide 7: Demo / Output
+
+* Sample frames with detected violations.
+* Highlight vehicles crossing stop line.
+
+*Visual suggestion:* Annotated screenshots or video snippet.
+
+---
+
+# Slide 8: Conclusion
+
+* Traffic violations can be detected automatically using digital image processing.
+* Helps in traffic monitoring and law enforcement.
+* System can be extended for speed detection and license plate recognition.
+
+---
+
+# Slide 9: Future Work
+
+* Integrate real-time live camera feed.
+* Detect other violations like red-light crossing.
+* Implement automatic fine generation and database storage.
+
+---
+
+# Slide 10: Thank You
+
+* Questions & Answers
+* Contact: Adeela Naz
+  *Visual suggestion:* Traffic or city road background image.
+
+```
+```
