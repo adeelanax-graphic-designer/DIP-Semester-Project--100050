@@ -1,1 +1,62 @@
+# Smart Traffic Violation Detector
+
+## Digital Image Processing Project Report
+
+---
+
+### 1. Introduction
+
+Traffic rule violations are a major cause of road accidents, congestion, and loss of life, especially in urban areas. Manual monitoring by traffic police is time-consuming, error-prone, and difficult to scale with increasing traffic volume. To address this issue, the **Smart Traffic Violation Detector** project uses **Digital Image Processing (DIP)** techniques to automatically detect traffic violations from images and video streams.
+
+This project focuses on applying image processing and basic computer vision methods to identify common traffic violations such as signal jumping, lane violations, and vehicle detection. The system aims to improve traffic law enforcement efficiency and enhance road safety.
+
+---
+
+### 2. Objectives of the Project
+
+The main objectives of the Smart Traffic Violation Detector project are:
+
+* To automatically monitor traffic using cameras.
+* To detect traffic violations using image and video processing techniques.
+* To reduce human effort and improve accuracy in traffic monitoring.
+* To provide a scalable and cost-effective solution for smart city traffic management.
+
+---
+
+### 3. Problem Statement
+
+Traditional traffic monitoring systems rely heavily on manual observation or limited automation, which leads to:
+
+* Delayed detection of violations
+* Human errors and bias
+* Inefficient handling of large traffic volumes
+
+The problem is to design an automated system using **Digital Image Processing** that can analyze traffic footage in real time or from recorded data and accurately detect traffic violations.
+
+---
+
+### 4. Scope of the Project
+
+The scope of this project includes:
+
+* Processing traffic images or video footage captured by CCTV cameras.
+* Detecting vehicles using image processing techniques.
+* Identifying basic traffic violations (e.g., red light violation, lane crossing).
+* Generating alerts or storing violation records for further action.
+
+This project is intended for academic and prototype-level implementation and can be extended for real-world deployment.
+
+---
+
+### 5. Technologies and Tools Used
+
+* **Programming Language:** Python
+* **Libraries:** OpenCV, NumPy, Matplotlib
+* **Image Processing Techniques:**
+
+  * Image acquisition
+  * Grayscale conversion
+  * Edge detection
+  * Background subtraction
+  * Object detection
 
