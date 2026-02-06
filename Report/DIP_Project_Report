@@ -1,8 +1,4 @@
-# Smart Traffic Violation Detector
 
-## Digital Image Processing Project Report
-
----
 
 ### 1. Introduction
 
@@ -59,4 +55,113 @@ This project is intended for academic and prototype-level implementation and can
   * Edge detection
   * Background subtraction
   * Object detection
+* **Hardware (Optional):** CCTV camera / recorded traffic videos
+
+---
+
+### 6. System Architecture
+
+The Smart Traffic Violation Detector system consists of the following modules:
+
+1. **Image/Video Acquisition Module**
+
+   * Captures traffic images or video streams from a camera or dataset.
+
+2. **Pre-processing Module**
+
+   * Noise reduction
+   * Image resizing
+   * Grayscale conversion
+
+3. **Vehicle Detection Module**
+
+   * Detects moving vehicles using background subtraction or contour detection.
+
+4. **Violation Detection Module**
+
+   * Analyzes vehicle position relative to traffic signals or lanes.
+   * Detects violations such as crossing the stop line during a red signal.
+
+5. **Output Module**
+
+   * Displays detected violations.
+   * Saves images or logs of violation events.
+
+---
+
+### 7. Methodology
+
+The project follows these steps:
+
+1. Capture traffic video or load recorded footage.
+2. Extract frames from the video.
+3. Apply pre-processing techniques to enhance image quality.
+4. Detect vehicles using motion detection and contour analysis.
+5. Define traffic rules (e.g., stop line position, signal status).
+6. Check vehicle movement against defined rules.
+7. Mark and record violations.
+
+---
+
+### 8. Algorithms Used
+
+* **Background Subtraction Algorithm** for motion detection
+* **Canny Edge Detection** for object boundaries
+* **Contour Detection** for vehicle identification
+* **Thresholding** for segmentation
+
+---
+
+### 9. Results and Output
+
+The system successfully detects vehicles in traffic footage and identifies basic traffic violations. When a violation occurs, the system highlights the vehicle and records the event. The output demonstrates the effectiveness of Digital Image Processing techniques in real-world traffic monitoring scenarios.
+
+---
+
+### 10. Advantages of the System
+
+* Reduces manual monitoring
+* Improves accuracy and consistency
+* Works in real time or on recorded data
+* Scalable for smart city applications
+
+---
+
+### 11. Limitations
+
+* Performance depends on camera quality and lighting conditions
+* Complex traffic scenarios may reduce accuracy
+* Advanced violations require deep learning models
+
+---
+
+### 12. Future Enhancements
+
+* Integration with **Deep Learning (YOLO, CNNs)** for better accuracy
+* Automatic number plate recognition (ANPR)
+* Cloud-based violation record management
+* Integration with traffic police systems
+
+---
+
+### 13. Applications
+
+* Smart city traffic management
+* Automated traffic law enforcement
+* Accident prevention systems
+* Urban surveillance systems
+
+---
+
+### 14. Conclusion
+
+The Smart Traffic Violation Detector project demonstrates how **Digital Image Processing** can be effectively used to automate traffic monitoring and violation detection. The system reduces human effort, increases efficiency, and contributes to safer roads. With further enhancements, it can be deployed as a reliable smart traffic management solution.
+
+---
+
+### 15. References
+
+1. Gonzalez, R. C., & Woods, R. E. *Digital Image Processing*, Pearson Education.
+2. OpenCV Documentation
+3. Research papers on traffic violation detection and computer vision
 
